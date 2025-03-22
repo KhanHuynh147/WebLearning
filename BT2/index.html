@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Đăng ký khách hàng</title>
+</head>
+<body>
+    <form action="#" method="POST">
+        <h1 class="form-title">Đăng ký khách hàng</h1>
+        
+        <table class="table-form">
+            <tr>
+                <td colspan="3" class="table-title">Thông tin đăng nhập</td>
+            </tr>
+            <tr>
+                <td><label for="username">Tên đăng nhập:</label></td>
+                <td><input type="text" id="username" name="username" class="input_tb" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Mật khẩu:</label></td>
+                <td><input type="password" id="password" name="password" class="input_tb" required></td>
+            </tr>
+            <tr>
+                <td><label for="confirm-password">Nhập lại mật khẩu:</label></td>
+                <td><input type="password" id="confirm-password" name="confirm_password" class="input_tb" required></td>
+                <td class="batbuoc">(*)</td>
+            </tr>
+        </table>
+        
+        <table class="table-form">
+            <tr>
+                <td colspan="3" class="table-title">Thông tin chi tiết cá nhân</td>
+            </tr>
+            <tr>
+                <td><label for="fullname">Họ tên khách hàng:</label></td>
+                <td><input type="text" id="fullname" name="fullname" class="input_tb" required></td>
+            </tr>
+            <tr>
+                <td><label for="dob">Ngày sinh:</label></td>
+                <td><input type="date" id="dob" name="dob" class="input_tb" required></td>
+                <td class="batbuoc">(*)</td>
+            </tr>
+            <tr>
+                <td>Giới tính:</td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male" required> <label for="male">Nam</label>
+                    <input type="radio" id="female" name="gender" value="female"> <label for="female">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="email">Địa chỉ email:</label></td>
+                <td><input type="email" id="email" name="email" class="input_tb" required></td>
+                <td class="batbuoc">(*)</td>
+            </tr>
+            <tr>
+                <td><label for="phone">Số điện thoại:</label></td>
+                <td><input type="tel" id="phone" name="phone" class="input_tb"></td>
+            </tr>
+        </table>
+        
+        <input class="btn" type="submit" value="Đăng ký">
+    </form>
+</body>
+</html>

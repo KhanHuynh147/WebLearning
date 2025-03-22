@@ -1,0 +1,57 @@
+form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.input_tb {
+    margin: 6px 0;
+    padding: 8px;
+    width: 95%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.section {
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: white;
+    text-align: left;
+}
+
+.section-title {
+    font-weight: bold;
+    padding: 5px;
+    background-color: gray;
+    color: white;
+    border-radius: 4px;
+}
+
+.batbuoc {
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.btn {
+    background-color: blue;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}

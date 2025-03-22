@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+#div-title h1 {
+    font-size: 24px;
+}
+
+#div-info {
+    display: flex;
+    align-items: center;
+}
+
+#thi-sinh-name {
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+#exit {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#div-content {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+#div-submit {
+    margin-top: 20px;
+    text-align: right;
+}
+
+input[type="file"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#submit-btn {
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: darkgreen;
+}
